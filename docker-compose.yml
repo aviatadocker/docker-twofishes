@@ -1,6 +1,6 @@
 twofishes:
   restart: always
-  images: aviata/twofishes
+  image: aviata/twofishes
   links:
     - "8080:8080"
     - "8081:8081"
