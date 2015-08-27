@@ -3,7 +3,7 @@ MAINTAINER Dale-Kurt Murray "dalekurt.murray@gmail.com"
 
 RUN apt-get -qq update && DEBIAN_FRONTEND=noninteractive apt-get install -y -q  wget unzip
 
-RUN wget http://twofishes.net/binaries/server-assembly-0.84.9.jar -P /twofishes/2015-03-05-20-05-30.753698 \
+RUN wget http://twofishes.net/binaries/server-assembly-0.84.9.jar -P /twofishes \
 	&& wget http://twofishes.net/indexes/revgeo/2015-03-05.zip -P /twofishes \
 	&& unzip /twofishes/2015-03-05.zip
 
