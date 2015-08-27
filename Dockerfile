@@ -6,7 +6,7 @@ RUN apt-get -qq update && DEBIAN_FRONTEND=noninteractive apt-get install -y -q  
 RUN wget http://twofishes.net/binaries/server-assembly-0.84.9.jar -P /twofishes/2015-03-05-20-05-30.753698 \
 	&& wget http://twofishes.net/indexes/revgeo/2015-03-05.zip -P /tmp \
 	&& unzip /tmp/2015-03-05.zip \
-	&& cp /tmp/2015-03-05-20-05-30.753698 /twofishes/2015-03-05-20-05-30.753698
+	&& cp -fr /tmp/2015-03-05-20-05-30.753698 /twofishes/2015-03-05-20-05-30.753698
 
 # Add (extracted) index directory
 # ADD 2015-03-05-20-05-30.753698 /twofishes/2015-03-05-20-05-30.753698
