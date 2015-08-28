@@ -1,6 +1,7 @@
 twofishes:
   restart: always
-  image: aviata/twofishes
+  #image: aviata/twofishes:latest
+  image: f9f1ff781d31
   ports:
     - "8080:8080"
     - "8081:8081"
