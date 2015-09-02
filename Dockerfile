@@ -11,4 +11,4 @@ RUN wget http://twofishes.net/binaries/server-assembly-0.84.9.jar -P /twofishes 
 VOLUME /twofishes
 
 EXPOSE 8080 8081 8082 8083
-CMD java -jar /twofishes/server-assembly-0.84.9.jar --hfile_basepath /twofishes/2015-03-05-20-05-30.753698
+CMD java -Xmx3g -jar /twofishes/server-assembly-0.84.9.jar --hfile_basepath /twofishes/2015-03-05-20-05-30.753698
