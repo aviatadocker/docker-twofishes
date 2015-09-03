@@ -6,3 +6,5 @@ twofishes:
     - "8081:8081"
     - "8082:8082"
     - "8083:8083"
+  environment:
+    JVM_MAX_MEM: 3g
